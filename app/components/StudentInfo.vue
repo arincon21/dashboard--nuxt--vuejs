@@ -1,5 +1,5 @@
 <template>
-    <div class="w-80 bg-white border-r border-slate-200 p-6 dark:bg-slate-900 dark:border-slate-800">
+    <div class="w-80 bg-white border-r border-slate-300 p-6 dark:bg-slate-900 dark:border-slate-800">
           <!-- Student Profile -->
           <div class="text-center mb-6">
             <div
@@ -38,7 +38,7 @@
           </div>
 
           <!-- Tabs -->
-          <div class="flex border-y border-slate-200 mb-6 -mx-6 dark:border-slate-800">
+          <div class="flex border-y border-slate-300 mb-6 -mx-6 dark:border-slate-800">
             <button class="px-9 py-2 text-sm font-medium text-slate-800 border-b-2 border-blue-600 dark:text-white dark:border-white">
               Comentarios
             </button>
@@ -94,7 +94,7 @@
               </div>
             </div>
 
-            <div class="border-t border-slate-200 pt-5 dark:border-slate-800">
+            <div class="border-t border-slate-300 pt-5 dark:border-slate-800">
               <div class="flex flex-row gap-5">
                 <input type="text" placeholder="Crear un comentario"
                   class="flex-1 px-2 py-2 bg-white border border-slate-300 w-80 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent dark:bg-slate-800 dark:border-slate-700 dark:text-white">

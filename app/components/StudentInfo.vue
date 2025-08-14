@@ -13,12 +13,12 @@
           <!-- Action Buttons -->
           <div class="flex gap-2 mb-6">
             <button
-              class="flex-1 text-xs flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-2 hover:bg-blue-700">
+              class="flex-1 text-xs rounded flex items-center justify-center gap-2 bg-blue-600 text-white px-4 py-2 hover:bg-blue-700">
               <Icon name="heroicons:envelope" class="w-4 h-4" />
               Correo
             </button>
             <button
-              class="flex-1 text-xs flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-2 hover:bg-green-600">
+              class="flex-1 text-xs rounded flex items-center justify-center gap-2 bg-green-500 text-white px-4 py-2 hover:bg-green-600">
               <Icon name="heroicons:phone" class="w-4 h-4" />
               WhatsApp
             </button>

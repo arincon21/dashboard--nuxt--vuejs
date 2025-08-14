@@ -31,7 +31,7 @@
           <!-- Stats Cards -->
           <div class="grid grid-cols-4 gap-6 mb-8">
 
-            <div class="p-6 border border-slate-200 bg-white dark:bg-slate-800 dark:border-slate-700">
+            <div class="p-6 border border-slate-200 bg-gray-50 dark:bg-slate-800 dark:border-slate-700">
               <div class="flex items-center gap-2 mb-2">
                 <Icon name="heroicons:document-text" class="w-5 h-5 text-slate-400" />
                 <span class="text-sm text-slate-500 dark:text-slate-400">Duración total</span>
@@ -39,7 +39,7 @@
               <div class="text-3xl font-bold text-slate-800 dark:text-white">5 Min</div>
             </div>
 
-            <div class="p-6 border border-slate-200 bg-white dark:bg-slate-800 dark:border-slate-700">
+            <div class="p-6 border border-slate-200 bg-gray-50 dark:bg-slate-800 dark:border-slate-700">
               <div class="flex items-center gap-2 mb-2">
                 <Icon name="heroicons:clock" class="w-5 h-5 text-slate-400" />
                 <span class="text-sm text-slate-500 dark:text-slate-400">Tiempo hablando</span>
@@ -47,7 +47,7 @@
               <div class="text-3xl font-bold text-slate-800 dark:text-white">4 Min</div>
             </div>
 
-            <div class="p-6 border border-slate-200 bg-white dark:bg-slate-800 dark:border-slate-700">
+            <div class="p-6 border border-slate-200 bg-gray-50 dark:bg-slate-800 dark:border-slate-700">
               <div class="flex items-center gap-2 mb-2">
                 <Icon name="heroicons:chat-bubble-left-right" class="w-5 h-5 text-slate-400" />
                 <span class="text-sm text-slate-500 dark:text-slate-400">Mensajes</span>
@@ -55,7 +55,7 @@
               <div class="text-3xl font-bold text-slate-800 dark:text-white">12</div>
             </div>
 
-            <div class="p-6 border border-slate-200 bg-white dark:bg-slate-800 dark:border-slate-700">
+            <div class="p-6 border border-slate-200 bg-gray-50 dark:bg-slate-800 dark:border-slate-700">
               <div class="flex items-center gap-2 mb-2">
                 <Icon name="heroicons:check-circle" class="w-5 h-5 text-slate-400" />
                 <span class="text-sm text-slate-500 dark:text-slate-400">Palabras por minuto</span>

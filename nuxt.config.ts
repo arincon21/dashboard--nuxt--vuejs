@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/test-utils',
     '@nuxtjs/tailwindcss',
-    'nuxt-headlessui'
+    'nuxt-headlessui',
+    '@nuxtjs/color-mode'
   ]
 })

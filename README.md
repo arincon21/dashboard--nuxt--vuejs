@@ -1,4 +1,4 @@
-# Chat de Voz - Aplicación Nuxt.js
+# Chat de Voz y Rediseño de Pagina - Aplicación Nuxt.js 
 
 Una aplicación moderna de chat de voz en tiempo real construida con Nuxt.js, que permite la comunicación por voz entre usuarios utilizando tecnologías web avanzadas.
 

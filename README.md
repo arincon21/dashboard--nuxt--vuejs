@@ -2,6 +2,10 @@
 
 Una aplicación moderna de chat de voz en tiempo real construida con Nuxt.js, que permite la comunicación por voz entre usuarios utilizando tecnologías web avanzadas.
 
+## Diseño Figma
+
+https://www.figma.com/community/file/1538062939599886992
+
 ## Tabla de Contenidos
 
 - [Características](#características)

@@ -12,5 +12,11 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     '@nuxtjs/color-mode'
-  ]
+  ],
+
+  app: {
+    head: {
+      title: 'Lingo Questo'
+    }
+  }
 })

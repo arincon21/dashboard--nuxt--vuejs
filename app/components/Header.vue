@@ -4,17 +4,25 @@
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-4">
 
-        <!-- Back Button -->
-        <button
-          class="flex items-center gap-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
-          <span class="text-sm">Estudiantes</span>
-          <span class="text-slate-400">/</span>
-          <span class="text-sm">Lista de módulos</span>
-          <span class="text-slate-400">/</span>
-          <span class="text-sm">Información del módulo</span>
-          <span class="text-slate-400">/</span>
-          <span class="text-sm"><b>Información de la práctica</b></span>
-        </button>
+        <!-- Breadcrumbs -->
+        <div v-if="route.path === '/DashboardPage'">
+            <button class="flex items-center gap-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
+                <span class="text-sm">Estudiantes</span>
+                <span class="text-slate-400">/</span>
+                <span class="text-sm">Lista de módulos</span>
+                <span class="text-slate-400">/</span>
+                <span class="text-sm">Información del módulo</span>
+                <span class="text-slate-400">/</span>
+                <span class="text-sm"><b>Información de la práctica</b></span>
+            </button>
+        </div>
+        <div v-else-if="route.path === '/VoiceChatPage'">
+            <button class="flex items-center gap-2 text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white">
+                <span class="text-sm">Home</span>
+                <span class="text-slate-400">/</span>
+                <span class="text-sm"><b>Voice Chat</b></span>
+            </button>
+        </div>
       </div>
 
       <div class="flex items-center gap-1">
@@ -91,4 +99,6 @@ function toggleColorMode() {
 function logout() {
   navigateTo('/')
 }
+
+const route = useRoute()
 </script>

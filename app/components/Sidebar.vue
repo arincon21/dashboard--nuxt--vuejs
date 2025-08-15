@@ -1,3 +1,17 @@
+<script setup>
+const route = useRoute()
+
+function linkClasses(path) {
+  const isActive = route.path === path
+  return [
+    'flex items-center gap-3 px-3 py-2 rounded transition-colors duration-200',
+    isActive
+      ? 'bg-blue-600 text-white hover:bg-blue-700 dark:bg-blue-700 dark:text-white'
+      : 'text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800'
+  ]
+}
+</script>
+
 <template>
   <aside class="fixed h-screen w-72 bg-white border-r border-slate-300 flex-shrink-0 flex flex-col z-10 dark:bg-slate-900 dark:border-slate-800">
       <div class="p-6 flex-1 flex flex-col">
@@ -13,30 +27,35 @@
           <!-- Navigation -->
           <nav class="space-y-1">
 
-            <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+            <NuxtLink to="/" :class="linkClasses('home')">
               <Icon name="heroicons:home" class="w-5 h-5" />
               Inicio
-            </a>
+            </NuxtLink>
 
-            <a href="#" class="flex items-center gap-3 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors duration-200 dark:bg-blue-700 dark:text-white">
+            <NuxtLink to="/DashboardPage" :class="linkClasses('/DashboardPage')">
               <Icon name="heroicons:user-group" class="w-5 h-5" />
               Estudiantes
-            </a>
+            </NuxtLink>
 
-            <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+            <NuxtLink to="/VoiceChatPage" :class="linkClasses('/VoiceChatPage')">
+              <Icon name="heroicons:microphone" class="w-5 h-5" />
+              Voice Chat
+            </NuxtLink>
+
+            <NuxtLink to="#" :class="linkClasses('clases')">
               <Icon name="heroicons:academic-cap" class="w-5 h-5" />
               Clases
-            </a>
+            </NuxtLink>
 
-            <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+            <NuxtLink to="#" :class="linkClasses('escenarios')">
               <Icon name="heroicons:presentation-chart-bar" class="w-5 h-5" />
               Escenarios
-            </a>
+            </NuxtLink>
 
-            <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+            <NuxtLink to="#" :class="linkClasses('modulo')">
               <Icon name="heroicons:book-open" class="w-5 h-5" />
               Módulo
-            </a>
+            </NuxtLink>
 
           </nav>
 
@@ -44,15 +63,15 @@
 
         <!-- Bottom Section -->
         <div class="space-y-2  pt-5 border-t border-slate-300 dark:border-slate-800">
-          <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+          <NuxtLink to="#" :class="linkClasses('configuracion')">
             <Icon name="heroicons:cog" class="w-5 h-5" />
             Configuración
-          </a>
-          <a href="#" class="flex items-center gap-3 px-3 py-2 text-slate-600 rounded hover:bg-slate-100 transition-colors duration-200 dark:text-slate-400 dark:hover:bg-slate-800">
+          </NuxtLink>
+          <NuxtLink to="#" :class="linkClasses('ayuda')">
             <Icon name="heroicons:question-mark-circle" class="w-5 h-5" />
             Ayuda y Soporte
             <span class="ml-auto bg-blue-600 text-white text-xs px-2 py-1 rounded-full">3</span>
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </aside>

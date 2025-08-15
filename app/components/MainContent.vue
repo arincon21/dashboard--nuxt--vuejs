@@ -136,15 +136,10 @@
           </div>
         </div>
       </div>
-
-      <div class="h-screen p-4">
-        <VoiceChatApp />
-      </div>
-
     </div>
   </div>
 </template>
 
 <script setup>
-  import VoiceChatApp from '@/components/VoiceChatApp.vue'
+
 </script>

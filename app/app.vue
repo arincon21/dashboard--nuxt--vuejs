@@ -1,7 +1,9 @@
 <template>
   <div :class="{ 'dark': colorMode.value === 'dark' }">
-    <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtRouteAnnouncer />
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 

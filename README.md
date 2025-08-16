@@ -246,10 +246,6 @@ Las contribuciones son bienvenidas. Por favor:
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## Autores
-
-- **Tu Nombre** - *Desarrollo inicial* - [TuUsuario](https://github.com/tuusuario)
-
 ## Agradecimientos
 
 - Equipo de Nuxt.js por el excelente framework

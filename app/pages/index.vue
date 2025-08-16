@@ -374,7 +374,7 @@ const handleGoogleLogin = async () => {
 
 // SEO Meta para Nuxt
 useHead({
-  title: 'Login - Tu Aplicación',
+  title: 'Lingo Questo - Inicio de Sesión',
   meta: [
     { name: 'description', content: 'Inicia sesión en tu cuenta' }
   ]
